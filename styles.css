@@ -1,0 +1,16 @@
+* {
+    box-sizing: border-box;
+}
+html,
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(31,41,51);
+    color: rgb(228,231,235);
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* Header styles */
+.nav-main {
+    
+}
