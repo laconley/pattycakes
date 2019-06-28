@@ -79,6 +79,7 @@ body {
 /* Section heads */
 section {
     padding-top: 80px;
+    margin: 0 160px 0 160px;
 }
 .section-header {
     text-align: center;
@@ -97,13 +98,19 @@ section {
 /* Connect section style */
 .flex-container {
     display: flex;
+    flex-wrap: wrap;
 }
 .social-container {
-    
+    display: flex;
+}
+.social-link {
+    text-decoration: none;
+    color: rgb(228,231,235);
 }
 .social-icon {
     width: 140px;
 }
-.social-container a {
-    text-decoration: none;
+.social-square {
+    background: linear-gradient(rgb(124,212,51), rgb(71,184,250));
+    padding: 15px;
 }
