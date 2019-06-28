@@ -90,3 +90,14 @@ body {
     max-width: 460px;
     margin: 0 auto;
 }
+
+/* Connect section style */
+.flex-container {
+    display: flex;
+}
+.social-container {
+    
+}
+.social-icon {
+    width: 40px;
+}
