@@ -61,6 +61,7 @@ body {
     display: block;
     background-color: rgb(100,64,164);
     text-transform: none;
+    margin: 0 0 6px 9px;
     padding: 9px 22px;
     border-radius: 3px;
 }
