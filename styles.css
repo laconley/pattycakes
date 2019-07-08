@@ -103,11 +103,11 @@ section {
 }
 .social-container {
     display: flex;
-    margin: 40px 6px 0 0;
 }
 .social-link {
     text-decoration: none;
     color: rgb(124,212,51);
+    margin: 40px 6px 0 0;
 }
 .social-icon {
     width: 140px;
