@@ -101,6 +101,8 @@ section {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    max-width: 886px;
+    margin: 0 auto;
 }
 .social-container {
     display: flex;
