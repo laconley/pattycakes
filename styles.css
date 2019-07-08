@@ -80,7 +80,7 @@ body {
 /* Section heads */
 section {
     padding-top: 80px;
-    margin: 0 160px 0 160px;
+    margin: 0 8px;
 }
 .section-header {
     text-align: center;
@@ -101,7 +101,7 @@ section {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    max-width: 886px;
+    max-width: 981px;
     margin: 0 auto;
 }
 .social-container {
@@ -121,7 +121,7 @@ section {
 }
 .social-rectangle {
     background-color: rgb(31,44,57);
-    width: 256px;
+    width: 304px;
     padding: 40px;
     text-align: center;
 }
