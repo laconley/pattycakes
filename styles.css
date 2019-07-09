@@ -168,3 +168,18 @@ section {
     font-size: 22px;
     color: rgb(119,205,55);
 }
+
+/* Footer styles */
+.footer {
+    background-color: rgb(22,29,36);
+    padding: 20px;
+    text-align: center;
+}
+.footer img {
+    display: block;
+    max-height: 90px;
+    margin: 0 auto;
+}
+.footer p {
+    margin: 30px 0 0 0;
+}
