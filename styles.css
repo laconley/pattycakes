@@ -154,6 +154,7 @@ section {
 }
 .schedule-gradient {
     background-color: rgb(124,212,51);
+    background-image: linear-gradient(90deg,rgb(124,212,51), rgb(71,184,250));
     height: 4px;
     width: 240px;
 }
