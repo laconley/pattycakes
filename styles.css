@@ -98,8 +98,8 @@ section {
     margin: 0 auto;
 }
 /* Watch Section Styles */
-#twitch-embed {
-    margin: 0 auto;
+#watch {
+    padding: 80px 20px 0 20px;
 }
 
 /* Connect section style */
