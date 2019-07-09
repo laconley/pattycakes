@@ -111,11 +111,18 @@ section {
     color: rgb(124,212,51);
     margin: 8px;
 }
+.social-link:hover {
+    color: rgb(228,231,235);
+}
 .social-container {
     display: flex;
 }
 .social-icon {
     width: 140px;
+    fill: rgba(66,0,219,0.59);
+}
+.social-link:hover .social-icon {
+    fill: rgba(228,231,235,0.69);
 }
 .social-square {
     background: linear-gradient(rgb(124,212,51), rgb(71,184,250));
