@@ -27,7 +27,7 @@ body {
 .nav-icon {
     display: flex;
     align-items: center;
-    margin: 5px 40px 5px 20px;
+    margin: 5px 40px 5px 10px;
 }
 .nav-icon img {
     max-height: 50px;
@@ -75,11 +75,6 @@ body {
     margin-left: 8px;
     position: relative;
     top: 3px;
-}
-
-/* Content Space */
-.spacer {
-    height: 80px;
 }
 
 /* Section heads */
@@ -201,7 +196,7 @@ section {
 }
 
 /* Responsive styles */
-@media (max-width: 985px) {
+@media (max-width: 999px) {
     .nav-links-container ul {
         display: none;
     }
@@ -211,8 +206,9 @@ section {
         height: 43px;
         fill: rgb(71,184,250);
     }
+    
 }
-@media (max-width: 1045px) {
+@media (max-width: 1069px) {
     .nav-icon h1 {
         font-size: 28px;
     }
