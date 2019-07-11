@@ -18,13 +18,14 @@
                 <h1>pattycakes</h1>
             </div>
             <div class="nav-links-container">
-                    <svg class="nav-dropdown"version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-                        <title>dropdown menu</title>
-                        <g id="icomoon-ignore">
-                        </g>
-                        <path d="M32 96h448v96h-448zM32 224h448v96h-448zM32 352h448v96h-448z"></path>
-                    </svg>
-                <ul>
+                <!-- SVG Hamburger for mobile devices -->
+                <svg class="nav-dropdown-svg"version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                    <title>dropdown menu</title>
+                    <g id="icomoon-ignore">
+                    </g>
+                    <path d="M32 96h448v96h-448zM32 224h448v96h-448zM32 352h448v96h-448z"></path>
+                </svg>
+                <ul id="nav-links-list" class="nav-ul">
                     <li><a class="nav-links" href="#watch">Watch</a></li>
                     <li><a class="nav-links" href="#connect">Connect</a></li>
                     <li><a class="nav-links" href="#schedule">Schedule</a></li>
@@ -221,5 +222,6 @@
         <img src="source/pattycakes2.png" alt="Smiling stack of pancakes.">
         <p>Copyright &copy2019 pattycakesttv</p>
     </footer>
+    <script src="scripts.js"></script>
 </body>
 </html>
