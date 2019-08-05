@@ -9,3 +9,4 @@ navList.addEventListener("click", function(){
     navList.classList.toggle("nav-dropdown-open");
     navBtn.classList.toggle("nav-dropdown-svg-gray");
 });
+
